@@ -1,2 +1,3 @@
-sudo apt update && sudo apt upgrade && sudo apt install ubuntu-desktop -y && sudo apt install xrdp -y && sudo adduser xrdp ssl-cert && sudo ufw enable && sudo ufw allow from 192.168.2.0/24 to any port 3389 && sudo ufw reload && sudo ufw status && echo Done!
+apt --fix-broken install && wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb && dpkg -i chrome-remote-desktop_current_amd64.deb && echo Goto  https://remotedesktop.google.com/headless And Skip Step1 in Step 2 Click On Authorize Bottom Copy The Debian Code And Paste Into Tmux Session && sleep 30
+
 echo created by Arian Abbasi
